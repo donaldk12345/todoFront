@@ -1,11 +1,15 @@
 
 import './App.css';
 import AddTodoList from './component/add-todo';
+import ListTodo from './component/list-todo';
 
 function App() {
   return (
-
-    <AddTodoList/>
+    <div>
+      <AddTodoList />
+      <ListTodo/>
+     </div>
+   
   );
 }
 
